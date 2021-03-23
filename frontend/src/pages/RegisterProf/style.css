@@ -1,0 +1,40 @@
+.containerRegisterProf{
+    width: 100vw;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioprof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formularioprof input{
+    width: 280px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(65, 65, 65, 0.37);
+    outline: none;
+    color: white;
+}
+
+.formularioprof button{
+    margin-top: 20px;
+    width: 200px;
+    height: 38px;
+    border-radius: 50px;
+    border: none;
+    /*background-color: rgba(72, 190, 72, 0.911);*/
+    background-color:  rgb(139, 28, 218);
+    color: white;
+    outline: none;
+}
+

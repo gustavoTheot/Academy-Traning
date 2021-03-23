@@ -1,0 +1,46 @@
+.actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.creatTurm, .creatTraning, .listAlunos, .listTreino{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(139, 28, 218);
+    margin: 30px;
+    border-radius: 3px;
+    box-shadow: 3px 3px white;
+    transition: 1s;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creatTurm:hover, .creatTraning:hover, .listAlunos:hover, .listTreino:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+}
+
+.actions a h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(226, 226, 226);
+}
+
+.actions{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    align-items: center;
+    justify-items: center;
+}

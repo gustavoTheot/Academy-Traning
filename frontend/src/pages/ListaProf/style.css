@@ -1,0 +1,57 @@
+.listProf{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.listProf ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.listProf ul li{
+    background-color:  rgb(139, 28, 218);
+    font-size: 12px;
+    padding: 40px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.listProf ul li strong{
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.listProf ul li p + strong{
+    margin-top: 22px;
+}
+
+.listProf ul li p{
+    color: rgb(226, 226, 226);
+    line-height: 21px;
+    font-size: 16px;
+}
+
+
+.listProf ul li strong, .listProf ul li p{
+    color: rgb(226, 226, 226);
+}
+
+.listProf ul li button{
+    position: absolute;
+    outline: none;
+    right: 24px;
+    top: 36px;
+    border: 0;
+    background: transparent;
+}
+
+.listProf ul li button:hover{
+    opacity: 0.8;
+}
+
+

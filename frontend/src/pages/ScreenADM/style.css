@@ -1,0 +1,38 @@
+.cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 90vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cadastrarProf, .listarProf, .listAll{
+    width: 200px;
+    height: 200px;
+    background-color:  rgb(139, 28, 218);
+    margin: 30px;
+    border-radius: 3px;
+    box-shadow: 3px 3px white;
+    transition: 1s;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastrarProf:hover,.listarProf:hover, .listAll:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+}
+
+.cadastrarProf a h1, .listarProf a h1, .listAll a h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(226, 226, 226);
+}

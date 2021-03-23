@@ -1,0 +1,63 @@
+.mainLogout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLogout .training{
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 36px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.listtreinos{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.listtreinos ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.listtreinos ul li{
+    background-color:  rgb(197, 47, 47);
+    font-size: 12px;
+    padding: 40px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.listtreinos ul li strong{
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.listtreinos ul li p + strong{
+    margin-top: 22px;
+}
+
+.listtreinos ul li p{
+    color: rgb(226, 226, 226);
+    line-height: 21px;
+    font-size: 16px;
+}
+
+
+.listtreinos ul li strong, .listProf ul li p{
+    color: rgb(226, 226, 226);
+}
+
+
+
