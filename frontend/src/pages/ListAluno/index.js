@@ -54,7 +54,7 @@ export default function ListaAluno(){
                             <strong>ALUNO:</strong>
                             <p>{alu.nome}</p>
 
-                            <strong>PASSWORD:</strong>
+                            <strong>SENHA:</strong>
                             <p>{alu.senha}</p>
 
                             <strong>ENDEREÇO:</strong>
